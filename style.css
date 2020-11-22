@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #213e3b;
+}
+
+body {
+    width: 100%;
+}
+
+header{
+    padding-bottom: 2vh;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    background-color: #41aea9;
+}
+
+#logo{
+    width: 12vw;
+    height: auto;
+}
+
+#e-name{
+    font-size: 5vw;
+}
+
+section{
+    background-color: #a6f6f1;
+}
+
+#inscription{
+    width: 50%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+#titreForm{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+form{
+    margin: auto;
+    text-align: left;
+}
+

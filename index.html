@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fourmies connect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b3c591f1b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img id="logo" src="logo-fourmies02.png" alt="logo" height="299" width="303"/>
+        <div id="e-name">Fourmies Connect</div>
+    </header>
+    <section>
+        <div id="inscription">
+
+            <div id="titreForm">
+                <i class="fas fa-pen-fancy"></i>
+                <span>Inscription</span>
+            </div>
+            <form action="maPageCom.php" method="post">
+                <div class="ref">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="user-name" placeholder="votre nom">
+                </div>
+                <div class="ref">
+                    <label for="surname">Prénom</label>
+                    <input type="text" id="surname" name="surname" placeholder="votre prénom">
+                </div>
+                <div class="ref">
+                    <label for="shop">Nom du commerce</label>
+                    <input type="text" id="shop" name="shop" placeholder="raison sociale">
+                </div>
+                <div class="ref">
+                    <label for="siren">siren</label>
+                    <input type="text" id="siren" placeholder="9 chiffres">
+                </div>
+
+            </form>
+        </div>
+    </section>
+</body>
+</html>

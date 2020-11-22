@@ -14,6 +14,7 @@ html {
 
 body {
     width: 100%;
+    background-color: #e8ffff;
 }
 
 header{
@@ -38,7 +39,7 @@ section{
 }
 
 #inscription{
-    width: 50%;
+    width: 32%;
     margin: auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -52,6 +53,6 @@ section{
 
 form{
     margin: auto;
-    text-align: left;
+    text-align: right;
 }
 

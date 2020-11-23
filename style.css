@@ -18,11 +18,17 @@ body {
 }
 
 header{
-    padding-bottom: 2vh;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-evenly;
     background-color: #41aea9;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+header>div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 #logo{
@@ -39,7 +45,7 @@ section{
 }
 
 #inscription{
-    width: 32%;
+    width: 50%;
     margin: auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -56,3 +62,6 @@ form{
     text-align: right;
 }
 
+.ref>div {
+    width: 50%;
+}

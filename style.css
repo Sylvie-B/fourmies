@@ -58,10 +58,6 @@ section{
 }
 
 form{
-    margin: auto;
+    background-color: lightblue;
     text-align: right;
-}
-
-.ref>div {
-    width: 50%;
 }

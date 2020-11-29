@@ -16,88 +16,92 @@ body {
     background-color: #e8ffff;
 }
 
-header{
-    height: 25rem;
+header, footer{
     background-color: #41aea9;
+    padding : 1vh 1vw 1vh 1vw;
+}
+
+header{
     font-family: 'Ubuntu Mono', monospace;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 #e-name{
-    font-size: 5vw;
+    font-size: 2.5rem;
+    margin-bottom: 1vh;
+    align-self: flex-end;
 }
 
-header img{
-    width: 10vw;
+#logo{
+    width: 17%;
     height: auto;
+}
+
+#partners{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#partners, #upto, #face{
+    width: 12vw;
 }
 
 #upto, #face{
     background-color: white;
-    height: 9rem;
-    width: 20rem;
-    background-repeat: no-repeat;
+    height: auto;
+    margin-bottom: 1vh;
+}
+
+
+section{
+    background-color: #a6f6f1;
+    display: flex;
+}
+
+article{
+    padding-top: 2vh;
+    width: 45%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+article div, h1{
+    background-color: #e8ffff;
+}
+
+article div p{
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#inscription{
+    width: 45%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+footer{
+    background-image: url("logoFourmiesNoir.png");
     background-size: contain;
-    margin-right: 1rem;
+    background-repeat: space;
+    height: 13rem;
 }
 
-#upto{
-    background-image: url("logoUPTO.png");
+@media screen and (max-width: 600px) {
+
 }
-
-#face{
-    background-image: url("logoFace.png");
-}
-
-
-
-
-/*section{*/
-/*    background-color: #a6f6f1;*/
-/*}*/
-
-/*article{*/
-/*    padding-top: 1rem;*/
-/*    width: 80%;*/
-/*    margin: auto;*/
-/*    font-size: 1.5rem;*/
-/*}*/
-
-/*h1{*/
-/*    font-size: 2.5rem;*/
-/*    margin-bottom: 1rem;*/
-/*    background-color: #e8ffff;*/
-/*    text-align: center;*/
-/*}*/
-
-/*article div {*/
-/*    background-color: #e8ffff;*/
-/*}*/
-
-/*article div p{*/
-/*    width: 90%;*/
-/*    margin: auto;*/
-/*    padding: 1rem;*/
-/*}*/
-
-/*#inscription{*/
-/*    width: 50%;*/
-/*    margin: auto;*/
-/*    padding-top: 2rem;*/
-/*    padding-bottom: 2rem;*/
-/*    font-size: 1.5rem;*/
-/*}*/
-
-/*#titreForm{*/
-/*    text-align: center;*/
-/*    padding-bottom: 2rem;*/
-/*}*/
-
-/*form{*/
-/*    background-color: lightblue;*/
-/*    text-align: right;*/
-/*}*/

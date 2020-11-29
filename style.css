@@ -8,8 +8,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Ubuntu Mono', monospace;
-    color: #213e3b;
+    font-family: sans-serif;
 }
 
 body {
@@ -18,46 +17,87 @@ body {
 }
 
 header{
+    height: 25rem;
     background-color: #41aea9;
+    font-family: 'Ubuntu Mono', monospace;
     padding-top: 1vh;
     padding-bottom: 1vh;
-}
-
-header>div{
-    width: 80%;
-    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
-}
-
-#logo{
-    width: 12vw;
-    height: auto;
 }
 
 #e-name{
     font-size: 5vw;
 }
 
-section{
-    background-color: #a6f6f1;
+header img{
+    width: 10vw;
+    height: auto;
 }
 
-#inscription{
-    width: 50%;
-    margin: auto;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    font-size: 1.8rem;
+#upto, #face{
+    background-color: white;
+    height: 9rem;
+    width: 20rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 1rem;
 }
 
-#titreForm{
-    text-align: center;
-    padding-bottom: 2rem;
+#upto{
+    background-image: url("logoUPTO.png");
 }
 
-form{
-    background-color: lightblue;
-    text-align: right;
+#face{
+    background-image: url("logoFace.png");
 }
+
+
+
+
+/*section{*/
+/*    background-color: #a6f6f1;*/
+/*}*/
+
+/*article{*/
+/*    padding-top: 1rem;*/
+/*    width: 80%;*/
+/*    margin: auto;*/
+/*    font-size: 1.5rem;*/
+/*}*/
+
+/*h1{*/
+/*    font-size: 2.5rem;*/
+/*    margin-bottom: 1rem;*/
+/*    background-color: #e8ffff;*/
+/*    text-align: center;*/
+/*}*/
+
+/*article div {*/
+/*    background-color: #e8ffff;*/
+/*}*/
+
+/*article div p{*/
+/*    width: 90%;*/
+/*    margin: auto;*/
+/*    padding: 1rem;*/
+/*}*/
+
+/*#inscription{*/
+/*    width: 50%;*/
+/*    margin: auto;*/
+/*    padding-top: 2rem;*/
+/*    padding-bottom: 2rem;*/
+/*    font-size: 1.5rem;*/
+/*}*/
+
+/*#titreForm{*/
+/*    text-align: center;*/
+/*    padding-bottom: 2rem;*/
+/*}*/
+
+/*form{*/
+/*    background-color: lightblue;*/
+/*    text-align: right;*/
+/*}*/

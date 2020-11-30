@@ -28,13 +28,13 @@ header{
 }
 
 #e-name{
-    font-size: 2.5rem;
+    font-size: 5rem;
     margin-bottom: 1vh;
     align-self: flex-end;
 }
 
 #logo{
-    width: 17%;
+    width: 12%;
     height: auto;
 }
 
@@ -45,7 +45,7 @@ header{
 }
 
 #partners, #upto, #face{
-    width: 12vw;
+    width: 10vw;
 }
 
 #upto, #face{
@@ -57,11 +57,11 @@ header{
 
 section{
     background-color: #a6f6f1;
+    padding: 4rem;
     display: flex;
 }
 
 article{
-    padding-top: 2vh;
     width: 45%;
     margin: auto;
     font-size: 1.5rem;
@@ -70,15 +70,19 @@ article{
 h1{
     font-size: 2rem;
     margin-bottom: 1rem;
+    padding: 2rem;
     text-align: center;
 }
 
-article div, h1{
+article div, h1, #titreForm{
     background-color: #e8ffff;
 }
 
+article div{
+    padding: 1rem;
+}
+
 article div p{
-    width: 90%;
     margin: auto;
     padding: 1rem;
 }
@@ -95,7 +99,17 @@ article div p{
     font-size: 1.5rem;
 }
 
+form{
+}
 
+.ref{
+    margin: 1vw 0 1vw 0;
+}
+
+#perso{
+    display: flex;
+    justify-content: space-between;
+}
 
 footer{
     background-size: contain;

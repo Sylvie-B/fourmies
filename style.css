@@ -106,7 +106,7 @@ form{
     margin: 1vw 0 1vw 0;
 }
 
-#perso{
+#perso, #num{
     display: flex;
     justify-content: space-between;
 }

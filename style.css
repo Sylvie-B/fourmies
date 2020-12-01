@@ -13,7 +13,6 @@ html {
 
 body {
     width: 100%;
-    background-color: #e8ffff;
 }
 
 header, footer{
@@ -94,19 +93,27 @@ article div p{
 #inscription{
     width: 45%;
     margin: auto;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
-form{
+#titreForm{
+    text-align: center;
+    font-size: 2rem;
+}
+
+fieldset{
+    margin-top: 2rem;
+    padding: 1rem;
+    border-color: black;
 }
 
 .ref{
     margin: 1vw 0 1vw 0;
 }
 
-#perso, #num{
+#perso, #phone{
     display: flex;
     justify-content: space-between;
 }
